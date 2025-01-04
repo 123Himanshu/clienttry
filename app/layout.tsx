@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ClerkProvider, ClerkLoaded, ClerkLoading } from "@clerk/nextjs";
 import Navbar from "@/components/Navbar";
-import AuthCTA from "@/components/AuthCTA";
+// import AuthCTA from "@/components/AuthCTA";
 import { dark } from "@clerk/themes";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,7 +31,7 @@ export default function RootLayout({
             <div className="flex flex-col min-h-screen">
               <Navbar />
               {children}
-              <AuthCTA />
+              {/* <AuthCTA /> */}
             </div>
           </ClerkLoaded>
         </body>
