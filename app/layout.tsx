@@ -30,7 +30,7 @@ export default function RootLayout({
           <ClerkLoaded>
             <div className="flex flex-col min-h-screen">
               <Navbar />
-              {/* {children} */}
+              {children}
               {/* <AuthCTA /> */}
             </div>
           </ClerkLoaded>

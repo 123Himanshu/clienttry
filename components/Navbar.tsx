@@ -18,10 +18,10 @@ const Header = () => {
     { name: 'About', href: '#about' },
     { name: 'Features', href: '#features' },
     { name: 'How It Works', href: '#how-it-works' },
-    { name: 'Testimonials', href: '#testimonials' },
+    // { name: 'Testimonials', href: '#testimonials' },
     { name: 'FAQ', href: '#faq' },
     { name: 'Client Page', href: '/client' },
-    { name: 'Chatbot', href: '/chatbot' },
+    // { name: 'Chatbot', href: '/chatbot' },
   ];
 
   if (pathname === '/chatbot') {
